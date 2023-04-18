@@ -6,3 +6,7 @@ a,
 .prose > a {
     @apply !no-underline border-b hover:border-dashed;
 }
+
+.proseContainer {
+    @apply prose text-lg md:text-xl dark:prose-invert px-10 break-words mx-auto mt-12;
+}

@@ -27,7 +27,6 @@
         >NOSTR_HK
     </h1>
 </div>
-<div class="prose text-lg md:text-xl dark:prose-invert px-10 break-words mx-auto mt-12">
-    <slot />
-    <Footer />
-</div>
+
+<slot />
+<Footer />
