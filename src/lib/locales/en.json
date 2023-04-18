@@ -18,6 +18,7 @@
         "p2": "If you're new to to nostr, the most popular nostr apps are <a href=\"{damusUrl}\">Damus</a> (iPhone), <a href=\"{amethystUrl}\">Amethyst</a> (Android), and <a href=\"{irisUrl}\">iris.to</a> (web)."
     },
     "nostrHkMembers": {
-        "title": "Nostr HK Members"
+        "title": "Nostr HK Members",
+        "replyThread": "Join the conversation to join Nostr HK"
     }
 }

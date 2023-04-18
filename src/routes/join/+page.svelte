@@ -29,6 +29,6 @@
             <h2 class="!mt-0">{$_('nostrHkMembers.title')}</h2>
         </div>
 
-        <Members />
+        <Members {userIds} />
     </div>
 {/if}

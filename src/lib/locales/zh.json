@@ -18,6 +18,7 @@
         "p2": "如果你是新人,目前最流行的APP是<a href=\"{damusUrl}\">Damus</a> (iPhone), <a href=\"{amethystUrl}\">Amethyst</a> (Android), 和 <a href=\"{irisUrl}\">iris.to</a>。"
     },
     "nostrHkMembers": {
-        "title": "Nostr HK Members"
+        "title": "Nostr HK Members",
+        "replyThread": "加入对话以加入 Nostr HK"
     }
 }
