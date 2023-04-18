@@ -27,7 +27,7 @@
 
 {#await threadUsers}
     <div class="proseContainer">
-        <p>Loading...</p>
+        <p class="animate-pulse">Loading...</p>
     </div>
 {:then users}
     <div class="gap-6 grid grid-cols-2 px-2 md:grid-cols-4 md:mx-10 xl:grid-cols-6 xl:px-20">

@@ -8,7 +8,7 @@ export async function load() {
 
     // Connect to relays
     const ndk = get(ndkStore);
-    ndk.connect();
+    await ndk.connect();
 
     return {};
 }

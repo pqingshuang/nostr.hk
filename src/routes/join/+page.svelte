@@ -1,5 +1,6 @@
 <script lang="ts">
     import { _, isLoading } from 'svelte-i18n';
+    import Members from '$lib/components/Members.svelte';
 </script>
 
 {#if !$isLoading}
@@ -22,5 +23,12 @@
                 }
             })}
         </p>
+    </div>
+    <div class="bg-purple-900 py-8 mt-16">
+        <div class="proseContainer !mt-0">
+            <h2 class="!mt-0">{$_('nostrHkMembers.title')}</h2>
+        </div>
+
+        <Members />
     </div>
 {/if}

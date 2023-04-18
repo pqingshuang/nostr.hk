@@ -4,14 +4,13 @@
 
     export let userId: string;
 
-    const defaultImage = `https://robohash.org/${userId}?set=set3`;
+    const defaultImage = `https://robohash.org/${userId}?set=set3?size=40x40`;
 
     const user = $ndk.getUser({ hexpubkey: userId });
 
     let userProfile: NDKUserProfile | undefined = undefined;
     user.fetchProfile().then(() => {
         userProfile = user.profile;
-        console.log(user.profile);
     });
 
     let shortNpub = `${user.npub.slice(0, 6)}...`;
@@ -30,6 +29,6 @@
     target="_blank"
     class="personCard flex flex-row gap-4 items-center border border-purple-800 p-2 rounded-md overflow-hidden shadow-lg"
 >
-    <img src={profileImage} alt="profile" class="rounded-full w-10 h-10 m-0" />
+    <img src={profileImage} alt="profile" class="bg-purple-600 rounded-full w-10 h-10 m-0" />
     <span class="m-0 border-0">{name}</span>
 </a>

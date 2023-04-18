@@ -49,7 +49,7 @@
 
     <!-- Mobile Nav -->
     <nav
-        class="z-30 flex md:hidden flex-col absolute w-full top-0 items-center justify-center p-4 bg-black/90"
+        class="z-30 flex md:hidden flex-col sticky w-full top-0 items-center justify-center p-4 bg-black/90"
     >
         <button class="text-orange-500" on:click|preventDefault={toggleMobileNav}>
             {#if mobileNavOpen}
