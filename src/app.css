@@ -4,5 +4,5 @@
 
 a,
 .prose > a {
-	@apply !no-underline border-b hover:border-dashed;
+    @apply !no-underline border-b hover:border-dashed;
 }

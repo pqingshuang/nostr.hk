@@ -1,12 +1,12 @@
 interface localesType {
-	alpha2Code: string;
-	name: string;
+    alpha2Code: string;
+    name: string;
 }
 
 // Locales our app supports
 export const locales: localesType[] = [
-	{ alpha2Code: 'en', name: 'English' },
-	{ alpha2Code: 'zh', name: '中文' }
+    { alpha2Code: 'en', name: 'English' },
+    { alpha2Code: 'zh', name: '中文' }
 ];
 
 // Returns an array of the supported alpha2 codes
