@@ -15,8 +15,12 @@
         <p>{$_('nostrVsWeb3.p2')}</p>
         <p>{$_('nostrVsWeb3.p3')}</p>
         <p>{$_('nostrVsWeb3.p4')}</p>
-
-        <h2>{$_('nostrHkMembers.title')}</h2>
     {/if}
 </div>
-<Members />
+<div class="bg-purple-900 py-8 mt-16">
+    <div class="proseContainer !mt-0">
+        <h2 class="!mt-0">{$_('nostrHkMembers.title')}</h2>
+    </div>
+
+    <Members />
+</div>

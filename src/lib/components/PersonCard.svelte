@@ -28,7 +28,7 @@
 <a
     href={url}
     target="_blank"
-    class="personCard flex flex-row gap-4 items-center border border-purple-800 p-2 rounded-md overflow-hidden"
+    class="personCard flex flex-row gap-4 items-center border border-purple-800 p-2 rounded-md overflow-hidden shadow-lg"
 >
     <img src={profileImage} alt="profile" class="rounded-full w-10 h-10 m-0" />
     <span class="m-0 border-0">{name}</span>
