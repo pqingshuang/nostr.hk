@@ -7,6 +7,14 @@
     export async function preload() {
         return waitLocale($locale as string);
     }
+
+    const currentBlockTime = fetch('https://chain.api.btc.com/v3/block/latest').then(
+        async (response) => {
+            let json = await response.json();
+            let blockTime = json.data.height;
+            return blockTime;
+        }
+    );
 </script>
 
 <div class="header top-0 bg-no-repeat bg-cover bg-center bg-hero-bg min-h-[220px] md:min-h-[500px]">
@@ -29,4 +37,11 @@
 </div>
 <Nav />
 <slot />
-<Footer />
+
+{#await currentBlockTime}
+    <div class="proseContainer">Loading...</div>
+{:then blockTime}
+    <Footer {blockTime} />
+{:catch error}
+    <div class="proseContainer">Something went wrong... 🙈</div>
+{/await}

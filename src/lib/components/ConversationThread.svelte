@@ -2,8 +2,6 @@
     import EventCard from './EventCard.svelte';
 
     export let eventsAndIds: Promise<App.EventsAndUserIds>;
-
-    // TODO: Sort and thread the events
 </script>
 
 {#await eventsAndIds}
@@ -12,10 +10,8 @@
     </div>
 {:then eventsAndIds}
     <div class="flex flex-col gap-4">
-        {#each eventsAndIds.events as event}
-            <EventCard {event} />
-        {/each}
+        <EventCard threadedEvent={eventsAndIds.threadedEvent} />
     </div>
-{:catch members}
+{:catch eventsAndIds}
     Broken! 🙈
 {/await}
