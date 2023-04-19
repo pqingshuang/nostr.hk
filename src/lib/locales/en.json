@@ -20,5 +20,6 @@
     "nostrHkMembers": {
         "title": "Nostr HK Members",
         "replyThread": "Join the conversation to join Nostr HK"
-    }
+    },
+    "currentTime": "Current time:"
 }

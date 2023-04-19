@@ -20,5 +20,6 @@
     "nostrHkMembers": {
         "title": "Nostr HK Members",
         "replyThread": "加入对话以加入 Nostr HK"
-    }
+    },
+    "currentTime": "当前时间："
 }

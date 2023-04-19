@@ -3,6 +3,9 @@
     import Footer from '$lib/components/Footer.svelte';
     import Nav from '$lib/components/Nav.svelte';
     import { waitLocale, locale } from 'svelte-i18n';
+    import { dev } from '$app/environment';
+    import { inject } from '@vercel/analytics';
+    inject({ mode: dev ? 'development' : 'production' });
 
     export async function preload() {
         return waitLocale($locale as string);

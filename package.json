@@ -35,6 +35,8 @@
     "dependencies": {
         "@noble/secp256k1": "^1.7.1",
         "@nostr-dev-kit/ndk": "^0.1.2",
+        "@sveltejs/adapter-vercel": "^2.4.2",
+        "@vercel/analytics": "^0.1.11",
         "nostr-tools": "^1.9.0",
         "svelte-i18n": "^3.6.0"
     }
