@@ -40,6 +40,7 @@
 
 // export default config;
 
+
 import adapter from '@sveltejs/adapter-vercel';
 
 export default {
