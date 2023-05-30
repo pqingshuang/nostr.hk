@@ -27,16 +27,25 @@
 
 // export default config;
 
-import adapter from '@sveltejs/adapter-node';
-import { vitePreprocess } from '@sveltejs/kit/vite';
+// import adapter from '@sveltejs/adapter-node';
+// import { vitePreprocess } from '@sveltejs/kit/vite';
 
-/** @type {import('@sveltejs/kit').Config} */
-const config = {
-	kit: {
-		adapter: adapter({ out: 'build' }),
-	},
-	preprocess: vitePreprocess()
+// /** @type {import('@sveltejs/kit').Config} */
+// const config = {
+// 	kit: {
+// 		adapter: adapter({ out: 'build' }),
+// 	},
+// 	preprocess: vitePreprocess()
+// };
+
+// export default config;
+
+import adapter from '@sveltejs/adapter-vercel';
+
+export default {
+    kit: {
+        adapter: adapter({
+            // see the 'Deployment configuration' section below
+        })
+    }
 };
-
-export default config;
-
