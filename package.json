@@ -38,11 +38,12 @@
         "@sveltejs/adapter-vercel": "^2.4.2",
         "@vercel/analytics": "^0.1.11",
         "date-fns": "^2.30.0",
+        "javascript-time-ago": "^2.5.9",
         "markdown-it": "^13.0.1",
-        "nostr-tools": "^1.2.0",
         "nostr": "^0.2.7",
+        "nostr-tools": "^1.2.0",
+        "svelte-i18n": "^3.6.0",
         "svelte-local-storage-store": "^0.4.0",
-        "uuid": "^9.0.0",
-        "svelte-i18n": "^3.6.0"
+        "uuid": "^9.0.0"
     }
 }

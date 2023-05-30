@@ -5,7 +5,7 @@
     import Note from './Note.svelte';
 
     import { onMount } from 'svelte';
-	import NavBar from '$lib/components/NavBar.svelte';
+	// import NavBar from '$lib/components/NavBar.svelte';
 	import Avatar from '$lib/components/Avatar.svelte';
     import { page } from '$app/stores';
     
@@ -34,7 +34,7 @@
     }
 </script>
 
-<NavBar />
+<!-- <NavBar /> -->
 
 {#if $nostrNotes[noteId]}
 <main class="w-full">

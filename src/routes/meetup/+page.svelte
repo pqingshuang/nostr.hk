@@ -11,7 +11,7 @@
     import { onMount } from 'svelte';
     import { goto } from '$app/navigation';
     import { nostrPool } from '$lib/store';
-    // import { intlFormat } from 'date-fns'
+
 
     let showForm = false;
 
@@ -37,10 +37,9 @@
 
 
 <!-- <div class="proseContainer"></div> -->
-    <div class="my-4 rounded">
-        <div class="d-flex justify-content-center" style="display: flex;justify-content: center;align-items: center;">
+    <div class="my-4 ">
+        <!-- <div class="d-grid justify-content-center" > -->
 {#each $posts as post}
-  <div class="flex flex-row py-5 bg-white w-full hover:bg-purple-50 cursor-pointer  md:mb-4 md:rounded md:shadow border-b-gray-300 border-b max-h-24" on:click={goto(`/e/${post.id}`)}  on:keypress={()=>{}}>
     <div class="flex-shrink px-4">
       <div class="text-gray-900">
         {#if post.content.type == 'airport'}
@@ -122,7 +121,7 @@
       </div>
     </div>
     
-  </div>
+  <!-- </div> -->
 {/each}
 </div>
-</div>
+<!-- </div> -->

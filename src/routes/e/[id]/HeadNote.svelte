@@ -10,7 +10,7 @@
     let md = new MarkdownIt();
 
     const dispatch = createEventDispatcher()
-    const timeAgo = new TimeAgo('en-US')
+    // const timeAgo = new TimeAgo('en-US')
 
     export let note;
 </script>
@@ -23,7 +23,7 @@
                 {$profiles[note?.pubkey]?.display_name}
             </div>
             <div class="text-xs text-gray-200 mt-1">
-                {timeAgo.format(new Date(note?.created_at * 1000))}
+                <!-- {timeAgo.format(new Date(note?.created_at * 1000))} -->
             </div>
 
         </div>
