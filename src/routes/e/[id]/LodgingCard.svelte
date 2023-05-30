@@ -1,6 +1,6 @@
 <script>
     import Card from '$lib/components/Card.svelte';
-    import { formatSatoshis } from '$lib/utils';
+    import { formatSatoshis } from '$lib/util';
     
     export let note;
 </script>

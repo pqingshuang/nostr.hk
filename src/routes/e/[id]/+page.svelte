@@ -5,7 +5,7 @@
     import Note from './Note.svelte';
 
     import { onMount } from 'svelte';
-	import NavBar from '$lib/components/NavBar.svelte';
+	// import NavBar from '$lib/components/NavBar.svelte';
 	import Avatar from '$lib/components/Avatar.svelte';
     import { page } from '$app/stores';
     
@@ -34,11 +34,11 @@
     }
 </script>
 
-<NavBar />
-
+<!-- <NavBar /> -->
+<div class="proseContainer">
 {#if $nostrNotes[noteId]}
 <main class="w-full">
-    <div class="w-full">
+    <div class="w-full" >
         {#if $nostrNotes[noteId]}
             <div>
                 <HeadNote note={$nostrNotes[noteId]} on:interested={toggleReplyForm}>
@@ -70,3 +70,6 @@
 {:else}
 Loading {noteId}
 {/if}
+
+
+</div>

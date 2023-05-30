@@ -2,10 +2,10 @@
     import { profiles } from '$lib/store';
     import Avatar from '$lib/components/Avatar.svelte';
     import NoteContent from '$lib/components/NoteContent.svelte';
-    import TimeAgo from 'javascript-time-ago'
+    // import TimeAgo from 'javascript-time-ago'
 
-    const timeAgo = new TimeAgo('en-US')
-
+    // const timeAgo = new TimeAgo('en-US')
+// 
     export let note;
 </script>
 
@@ -18,7 +18,7 @@
                 {$profiles[note.pubkey]?.display_name}
             </div>
             <div class="text-xs text-gray-500 mt-1">
-                {timeAgo.format(new Date(note.created_at * 1000))}
+                <!-- {timeAgo.format(new Date(note.created_at * 1000))} -->
             </div>
 
             <div class="mt-5">
