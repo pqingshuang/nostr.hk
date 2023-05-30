@@ -43,10 +43,11 @@
 
 import adapter from '@sveltejs/adapter-vercel';
 
-export default {
+const config =  {
     kit: {
         adapter: adapter({
             // see the 'Deployment configuration' section below
         })
     }
 };
+export default config
