@@ -37,7 +37,12 @@
         "@nostr-dev-kit/ndk": "^0.1.2",
         "@sveltejs/adapter-vercel": "^2.4.2",
         "@vercel/analytics": "^0.1.11",
-        "nostr-tools": "^1.9.0",
+        "date-fns": "^2.30.0",
+        "markdown-it": "^13.0.1",
+        "nostr-tools": "^1.2.0",
+        "nostr": "^0.2.7",
+        "svelte-local-storage-store": "^0.4.0",
+        "uuid": "^9.0.0",
         "svelte-i18n": "^3.6.0"
     }
 }

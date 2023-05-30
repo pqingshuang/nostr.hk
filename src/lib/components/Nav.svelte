@@ -11,6 +11,7 @@
     const navLinks = [
         { text: 'Home', url: '/' },
         { text: 'Join', url: '/join' },
+        { text: 'Meet Up', url: '/meetup' },
         { text: 'Github', url: 'https://github.com/nostrocket/nostr.hk' },
         {
             text: 'Nostr Thread',
