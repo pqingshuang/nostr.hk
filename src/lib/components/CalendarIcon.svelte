@@ -1,5 +1,5 @@
 <script>
-    import parse from 'date-fns/parse';
+    import parse from 'date-fns/parse/index.js';
     import { intlFormat } from 'date-fns'
     
     export let date, endDate;
