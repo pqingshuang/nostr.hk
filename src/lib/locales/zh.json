@@ -1,6 +1,6 @@
 {
     "whatIs": {
-        "title": "什麼Nostr",
+        "title": "什麼是Nostr",
         "p1": "Nostr 代表 Notes and Other Stuff Transmitted by Relays。Nostr 已從一年前的 50 名活躍用戶發展到如今的 300,000 名。",
         "p2": "Nostr 不是您註冊的應用程序或服務，它是一種無需許可的開放標準，如 TCP/IP 和 HTTP。 任何人都可以在不徵得任何人許可的情況下進行構建。沒有人能控制。",
         "p3": "Nostr 的設計非常簡單, 使人們能夠參與去中心化的社交網絡。它不僅可以取代twitter/facebook/instagram/spotify/etc, 還可以取代提供信息交換服務的公司。"

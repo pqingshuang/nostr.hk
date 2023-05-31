@@ -33,7 +33,7 @@
 // /** @type {import('@sveltejs/kit').Config} */
 // const config = {
 // 	kit: {
-// 		adapter: adapter({ out: 'build' }),
+// 		adapter: adapter(),
 // 	},
 // 	preprocess: vitePreprocess()
 // };
@@ -42,10 +42,12 @@
 
 
 import adapter from '@sveltejs/adapter-vercel';
-
+import { vitePreprocess } from '@sveltejs/kit/vite';
 const config =  {
+    preprocess: vitePreprocess(),
     kit: {
         adapter: adapter({
+            
             // see the 'Deployment configuration' section below
         })
     }
