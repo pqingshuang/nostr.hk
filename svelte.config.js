@@ -41,17 +41,15 @@
 // export default config;
 
 
-
-import { vitePreprocess } from '@sveltejs/kit/vite';
 import adapter from '@sveltejs/adapter-vercel';
- 
-/** @type {import('@sveltejs/kit').Config} */
-const config = {
-  kit: {
-    adapter: adapter({
-      runtime: 'nodejs18.x',
-    }),
-  },
+import { vitePreprocess } from '@sveltejs/kit/vite';
+const config =  {
+    preprocess: vitePreprocess(),
+    kit: {
+        adapter: adapter({
+            
+            // see the 'Deployment configuration' section below
+        })
+    }
 };
- 
-export default config;
+export default config
