@@ -53,4 +53,5 @@ const config =  {
         })
     }
 };
-export default config
+export default config		"@sveltejs/adapter-vercel": "^3.0.0",
+		"@sveltejs/kit": "^1.5.0",
