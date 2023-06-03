@@ -345,7 +345,7 @@
   "resolved" "https://registry.npmjs.org/@sveltejs/adapter-static/-/adapter-static-1.0.0-next.50.tgz"
   "version" "1.0.0-next.50"
 
-"@sveltejs/adapter-vercel@^2.4.2":
+"@sveltejs/adapter-vercel@next":
   "integrity" "sha512-HxItPKrt9DmSbKw2X4XVRYa4J2ueTEfQr79ijDcI/ZUtQ64d4X3ilUnLpmm1nXMBb1DyxaWJF4o8avwiV4O2Hw=="
   "resolved" "https://registry.npmjs.org/@sveltejs/adapter-vercel/-/adapter-vercel-2.4.2.tgz"
   "version" "2.4.2"
